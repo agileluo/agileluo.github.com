@@ -1,23 +1,21 @@
 ---
 # -*- html -*- mode
 topnav:
-  - text: About
-    href: /about/
-  - text: Blog
+  - text: 首页
     href: /
-    http: "http://olesenm.github.com"
-  - text: Archives
+    http: "http://agileluo.github.io"
+  - text: 文章
     href: /archives/
-  - text: Categories
+  - text: 分类
     href: /tags/
-  - text: Other
-    href: /other/
+  - text: 关于我
+    href: /about/
 ---
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 <head>
-<title>Mark Olesen : {{ page.title }} </title>
+<title>agileluo : {{ page.title }} </title>
 <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 <meta name="language" content="en" />
 <link rel="stylesheet" type="text/css" href="/css/default.css" />
@@ -32,7 +30,7 @@ topnav:
 <body>
 <div class="page_margins">
   <div id="header">
-    <h2><a href="http://olesenm.github.com">Mark Olesen</a></h2>
+    <h2><a href="http://agileluo.github.io">推行敏捷实践，提高开发效率</a></h2>
     <div class="clear"></div>
 
     <!-- begin: main navigation #nav -->
@@ -44,7 +42,6 @@ topnav:
           <a href="{{ t.href }}"{% if t.title %} title="{{ t.title }}"{% endif %}>{{ t.text }}</a>
           </li>
           {% endfor %}
-          <li><a href="http://github.com/olesenm">Repositories</a></li>
         </ul>
       </div>
     </div>
