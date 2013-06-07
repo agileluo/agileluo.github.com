@@ -1,0 +1,27 @@
+---
+layout: post
+title: Invalid header signature POI 解决方法
+tags: POI
+
+---
+  这一般是由于第三方工具自动生成的excel文件的文件不太规范，你可以手动打开Excel(如果可以打开)再另存为-》保存Excel就可以了，这里提供一种自动解决方案，但是就必须在Windows平台下， 就是使用jaWin, 用这种方法可以提高程序并行化速度， 我的代码如下
+
+<pre>
+public static void saveCopyAs(String xlsfile, String saveAsFile){
+	SheetCopy sc = new SheetCopy();
+	sc.setXlsfile(xlsfile);
+	sc.setSaveAsFile(saveAsFile);
+	Thread t = new Thread(sc,"sc"+System.currentTimeMillis());
+	Thread tmain = Thread.currentThread();
+	try{
+		t.start();
+		while(sc.getIsContinue() != 1){
+			tmain.sleep(100);
+		}
+	}catch (Exception e) {
+		e.printStackTrace();
+	}finally{
+		t.stop();
+	}	
+}  
+</pre>

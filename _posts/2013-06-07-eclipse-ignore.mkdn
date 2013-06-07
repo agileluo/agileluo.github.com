@@ -1,0 +1,18 @@
+---
+layout: post
+title: Eclipse 添加 ignore
+tags: [eclipse, svn]
+---
+
+添加后提交svn时，这些文件就会忽略   
+添加步骤如下:  
+window/Preferences/Team/Ignored Resource/Add Pattern  
+
+* work (表示work文件夹)
+* target 
+* .settings
+* .settings/*
+* .project
+* bin
+* .classpath
+
