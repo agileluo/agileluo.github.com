@@ -8,8 +8,11 @@ body {
     font-size: 16px;
 }
 
-body, a {
+body{
     color: #333;
+}
+a {
+  color: #1982d1;
 }
 
 a:hover {
