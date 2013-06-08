@@ -8,7 +8,7 @@ title:  About
 大家好，我是罗明亮，我还是新手，我喜欢跟随我的兴趣和爱好去学习技术，我乐于使用新的
 思想和技术来提升工作效率
 
-[<img src="/myself.png" width=200>](/myself.png)
+[<img src="/myself.jpg" width=200>](/myself.jpg)
 
 ## 网络信息
 * **Email**: 363825970@qq.com (第天都收邮件)
