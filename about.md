@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  About
+title:  关于agileluo
 ---
 
 
@@ -14,6 +14,7 @@ title:  About
 * **Email**: 363825970@qq.com (第天都收邮件)
 * **豆瓣书单**：[http://www.douban.com/people/69263398/](http://www.douban.com/people/69263398/)
 * **腾讯微博**：[http://t.qq.com/uubox_2008](http://t.qq.com/uubox_2008)
+* **github简历**：[http://resume.github.io/?agileluo](http://resume.github.io/?agileluo)
 
 
 ## 个人简介
