@@ -12,7 +12,7 @@ title:  关于agileluo
 
 ## 网络信息
 * **Email**: 363825970@qq.com (第天都收邮件)
-* **豆瓣书单**：[http://www.douban.com/people/69263398/](http://www.douban.com/people/69263398/)
+* **豆瓣书单**：[http://www.douban.com/people/agileluo/](http://www.douban.com/people/agileluo/)
 * **腾讯微博**：[http://t.qq.com/uubox_2008](http://t.qq.com/uubox_2008)
 * **github简历**：[http://resume.github.io/?agileluo](http://resume.github.io/?agileluo)
 
