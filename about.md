@@ -27,6 +27,20 @@ title:  关于agileluo
 * 可以有效从技术上提升项目持续交付能力，个人认为持续交付能力是未来一个软件服务企业的核心竞争力
 * 自动化测试，特别是持续交付，国内才刚起步，在这个领域，可以锻炼自己各方面的能力，同时提升自己的竞争力
 
+## Follow大牛 Martin Fowler  
+读过他的书  
+
+* NoSQL Distilled
+* UML Distilled
+* 领域特定语言(正在学)
+* 企业应用架构模式
+
+读过他推荐的书  
+
+* Continuous Delivery
+* Continuous Integration
+ 
+
 ## 专业技能
 
 熟悉的编程语言，框架，技术及工具有  
